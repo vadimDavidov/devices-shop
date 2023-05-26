@@ -29,7 +29,7 @@ function Feedback() {
         </div>
         <div className={styles.right}>
           <label htmlFor="text">Опишите проблему</label>
-          <textarea name="text" cols="30" rows="18" />
+          <textarea name="text" cols="30" rows="20" />
         </div>
       </form>
     </div>
