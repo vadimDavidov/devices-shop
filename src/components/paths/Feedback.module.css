@@ -67,7 +67,7 @@
 
 @media (max-width: 520px) {
   .form {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .container h1 {
     font-size: 1.5rem;
