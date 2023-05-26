@@ -1,0 +1,90 @@
+.line {
+  width: 100vw;
+  border: 1px solid #dfdfe0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 12px;
+}
+
+.logo {
+  font-size: 1.25rem;
+  line-height: 144%;
+  margin-right: 20px;
+}
+
+.nav input {
+  background-color: #f0f1f2;
+  background-image: url('/icons/lens.svg');
+  background-repeat: no-repeat;
+  background-position: 23px 50%;
+  border-radius: 30px;
+  border: none;
+  width: 62%;
+  padding: 17px 48px;
+  margin-right: 20px;
+  outline: none;
+}
+
+.nav input::placeholder {
+  color: #9a9ea6;
+  font-size: 0.75rem;
+  line-height: 87.5%;
+}
+
+/* .buttonsGroup {
+  width: 30%;
+} */
+
+.nav a {
+  padding: 17px 38px;
+  font-size: 0.75rem;
+  line-height: 87.5%;
+  border-radius: 30px;
+}
+
+.regBtn {
+  color: #4475f2;
+  background: #ffff;
+  border: 2px solid #4475f2;
+  margin-right: 20px;
+}
+
+.enterBtn {
+  color: #fff;
+  background-color: #4475f2;
+}
+
+@media (max-width: 1140px) {
+  .nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 15px;
+  }
+  .nav input {
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+  .nav {
+    margin-bottom: 30px;
+    align-items: start;
+  }
+}
+@media (max-width: 481px) {
+  .nav a {
+    padding: 5px 10px;
+  }
+}

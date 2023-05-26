@@ -1,0 +1,253 @@
+.wrapper {
+  background: #4475f2;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  color: #fff;
+  max-width: 1140px;
+  padding: 16px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.right,
+.left {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  margin-top: 18px;
+}
+
+.right {
+  margin-top: 30px;
+}
+
+.left span:nth-child(1) {
+  font-size: 1.5rem;
+  line-height: 175%;
+  margin-bottom: 12px;
+}
+
+.left span:nth-child(2) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.message a {
+  white-space: nowrap;
+}
+
+.left a {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.contacts img {
+  margin-right: 12px;
+}
+
+.tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chunk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chunk p {
+  font-size: 0.75rem;
+  line-height: 87.5%;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contacts .chunk span {
+  font-weight: 500;
+  line-height: 119%;
+  color: #fff;
+}
+
+.contacts .chunk {
+  display: flex;
+  justify-content: center;
+}
+
+.formLink {
+  padding: 9px 16px;
+  width: 100%;
+  background: #fffefe;
+  border-radius: 4px;
+  text-align: center;
+  white-space: break-spaces;
+}
+
+.formLink a {
+  color: #4475f2;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.right span:nth-child(1) {
+  font-size: 1.125rem;
+  line-height: 131%;
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+
+.right span:nth-child(2) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+}
+
+.footerForm {
+  position: relative;
+}
+
+.right input {
+  background: #608af4;
+  border-radius: 30px;
+  width: 100%;
+  padding: 17px;
+  border: none;
+  background-image: url('/icons/sms.svg');
+  background-repeat: no-repeat;
+  background-position: 24px 50%;
+  color: #fff;
+  outline: none;
+  padding-left: 48px;
+}
+
+.right input::placeholder {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.right button {
+  padding: 12px 38px;
+  background: #ffffff;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  right: 6px;
+  top: 4px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 34px;
+}
+
+.footerNav {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  white-space: nowrap;
+}
+
+.conclusion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media (max-width: 1100px) {
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .conclusion {
+    flex-direction: row;
+  }
+  .footerNav {
+    margin-bottom: 20px;
+  }
+  .contacts {
+    flex-direction: column;
+    align-items: start;
+  }
+  .tel {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 685px) {
+  .footerNav {
+    gap: 10px;
+  }
+  .right button {
+    padding: 12px 20px;
+  }
+  .footerNav,
+  .conclusion {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 520px) {
+  .footerNav {
+    white-space: break-spaces;
+  }
+  .footerNav a {
+    text-align: center;
+  }
+  .conclusion span {
+    text-align: center;
+  }
+  .right button {
+    padding: 12px 12px;
+  }
+}
+@media (max-width: 479px) {
+  .right input {
+    display: none;
+  }
+  .right button {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .footerNav {
+    gap: 5px;
+    font-size: 0.5rem;
+  }
+  .footer {
+    margin-left: 16px;
+  }
+}
