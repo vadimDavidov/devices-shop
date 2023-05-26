@@ -11,6 +11,7 @@ import Adds from '@/components/main/Adds';
 export default function Home() {
   return (
     <main className={styles.main}>
+      <title>Домашняя страница</title>
       <NavBar />
       <TopSlider />
       <Categories />
