@@ -2,14 +2,9 @@ import styles from './Adds.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { adds } from '@/utils/data';
-import getScreenStatus from '@/utils/getScreenStatus';
 
 function Adds() {
   const addsList = adds.map(adds => adds);
-
-  const adoptImage = () => {
-    const screen = getScreenStatus();
-  };
 
   return (
     <div className={styles.wrapper}>

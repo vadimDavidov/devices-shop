@@ -4,7 +4,6 @@ import { topSliderData } from '@/utils/data';
 import Image from 'next/image';
 import Link from 'next/link';
 import Slider from 'react-slick';
-import { useState } from 'react';
 
 function TopSlider() {
   const slides = topSliderData.map(slides => slides);

@@ -12,7 +12,6 @@
 
 .nav {
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
@@ -43,10 +42,6 @@
   font-size: 0.75rem;
   line-height: 87.5%;
 }
-
-/* .buttonsGroup {
-  width: 30%;
-} */
 
 .nav a {
   padding: 17px 38px;
