@@ -2,19 +2,6 @@ import styles from './Producers.module.css';
 import { producers } from '@/utils/data';
 import Image from 'next/image';
 
-// function Producers() {
-//   return (
-//     <>
-//       <div className={styles.container}>
-//         <section className={styles.header}>
-//           <h2>Производители</h2>
-//         </section>
-//       </div>
-//       <div className={styles.wrapper} />
-//     </>
-//   );
-// }
-
 function Producers() {
   const logos = producers.map(producers => producers);
   return (

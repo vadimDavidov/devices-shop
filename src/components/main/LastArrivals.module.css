@@ -92,6 +92,7 @@
 .stock {
   display: flex;
   justify-content: center;
+  font-family: Inter;
 }
 
 .stock img {
