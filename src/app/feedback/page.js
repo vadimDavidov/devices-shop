@@ -1,6 +1,5 @@
 import React from 'react';
 import Feedback from '@/components/paths/Feedback';
-import Head from 'next/head';
 
 function page() {
   return (
