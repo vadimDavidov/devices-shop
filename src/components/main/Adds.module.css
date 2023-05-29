@@ -89,6 +89,7 @@
   .add img {
     max-width: 300px;
     min-width: 300px;
+    max-height: 200px;
     align-self: center;
   }
   .linkGroup {
