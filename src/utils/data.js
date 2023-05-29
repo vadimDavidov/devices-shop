@@ -44,7 +44,7 @@ export const categoriesData = [
 export const popularData = [
   {
     id: uuidv4(),
-    src: '/images/device.png',
+    src: '/images/device-discount.png',
     model: 'Apple',
     number: 'EAN 0190199320246',
     header: 'Bluetooth-метка AirTag Anti-loss Серебристая',
@@ -63,12 +63,12 @@ export const popularData = [
     description:
       'Apple AirTag - Bluetooth-метка Anti-tab для мобильного телефона, планшета (пакет med 4)',
     price: '4000 ₽',
-    oldPrice: '4500 ₽',
+    // oldPrice: '4500 ₽',
     stock: '40 шт. в наличии',
   },
   {
     id: uuidv4(),
-    src: '/images/device.png',
+    src: '/images/device-discount.png',
     model: 'Apple',
     number: 'EAN 0190199320246',
     header: 'Bluetooth-метка AirTag Anti-loss Серебристая',
@@ -87,12 +87,12 @@ export const popularData = [
     description:
       'Apple AirTag - Bluetooth-метка Anti-tab для мобильного телефона, планшета (пакет med 4)',
     price: '4000 ₽',
-    oldPrice: '4500 ₽',
+    // oldPrice: '4500 ₽',
     stock: '40 шт. в наличии',
   },
   {
     id: uuidv4(),
-    src: '/images/device.png',
+    src: '/images/device-discount.png',
     model: 'Apple',
     number: 'EAN 0190199320246',
     header: 'Bluetooth-метка AirTag Anti-loss Серебристая',
@@ -111,12 +111,12 @@ export const popularData = [
     description:
       'Apple AirTag - Bluetooth-метка Anti-tab для мобильного телефона, планшета (пакет med 4)',
     price: '4000 ₽',
-    oldPrice: '4500 ₽',
+    // oldPrice: '4500 ₽',
     stock: '40 шт. в наличии',
   },
   {
     id: uuidv4(),
-    src: '/images/device.png',
+    src: '/images/device-discount.png',
     model: 'Apple',
     number: 'EAN 0190199320246',
     header: 'Bluetooth-метка AirTag Anti-loss Серебристая',
@@ -135,7 +135,7 @@ export const popularData = [
     description:
       'Apple AirTag - Bluetooth-метка Anti-tab для мобильного телефона, планшета (пакет med 4)',
     price: '4000 ₽',
-    oldPrice: '4500 ₽',
+    // oldPrice: '4500 ₽',
     stock: '40 шт. в наличии',
   },
 ];

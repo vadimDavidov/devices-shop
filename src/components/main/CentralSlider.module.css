@@ -76,6 +76,10 @@
   color: #4475f2;
 }
 
+.prices span:nth-child(2) {
+  text-decoration-line: line-through;
+}
+
 .form {
   display: flex;
   align-items: center;
