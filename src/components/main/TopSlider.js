@@ -13,14 +13,50 @@ function TopSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     variableWidth: true,
   };
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: 'block',
+          left: '20px',
+          zIndex: '1',
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: 'block',
+          right: '20px',
+        }}
+        onClick={onClick}
+      />
+    );
+  }
 
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <Slider className={styles.slider} {...settings}>
+        <Slider
+          prevArrow={<SamplePrevArrow />}
+          nextArrow={<SampleNextArrow />}
+          className={styles.slider}
+          {...settings}
+        >
           {slides.map(slides => {
             return (
               <div className={styles.slides} key={slides.id}>
