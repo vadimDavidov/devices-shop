@@ -58,7 +58,7 @@ function CentralSlider() {
         <span className={styles.header}>
           <h2>Популярные товары</h2>
         </span>
-        <Slider ce className={styles.slider} {...settings} key={slides.id}>
+        <Slider className={styles.slider} {...settings} key={slides.id}>
           {slides.map(slides => {
             return (
               <div className={styles.slide} key={slides.id}>
