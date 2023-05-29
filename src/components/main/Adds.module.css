@@ -89,11 +89,13 @@
   .add img {
     max-width: 300px;
     min-width: 300px;
-    max-height: 300px;
+    max-height: 250px;
     align-self: center;
   }
   .linkGroup {
-    flex-direction: column;
+    bottom: 45px;
+  }
+  .linkGroup {
     left: -80px;
   }
 }
