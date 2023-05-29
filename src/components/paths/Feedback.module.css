@@ -65,6 +65,16 @@
   color: #fff;
 }
 
+.form input:focus {
+  border: 2px solid #9a9ea6;
+  outline: none;
+}
+
+.form textarea:focus {
+  border: 2px solid #9a9ea6;
+  outline: none;
+}
+
 @media (max-width: 520px) {
   .form {
     flex-direction: column-reverse;
