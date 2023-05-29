@@ -31,7 +31,7 @@ function CentralSlider() {
         breakpoint: 1100,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
           variableWidth: true,
