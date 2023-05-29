@@ -68,6 +68,7 @@ function CentralSlider() {
                     height={157}
                     src={slides.src}
                     alt="slide"
+                    priority={true}
                   />
                 </div>
                 <span className={styles.stamp}>
